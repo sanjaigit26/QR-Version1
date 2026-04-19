@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #eef2f7, #f7f9fc);
+  display: flex;
+  justify-content: center;
+  padding: 30px 15px;
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 380px;
+}
+
+/* GLASS CARD */
+.card {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 22px;
+  padding: 22px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+  border: 1px solid rgba(255,255,255,0.4);
+}
+
+/* IMAGE */
+.pet-img {
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 12px;
+}
+
+/* NAME */
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111;
+}
+
+/* PET ID */
+.pet-id {
+  font-size: 11px;
+  color: #aaa;
+  margin-top: 4px;
+}
+
+/* DOB */
+.dob {
+  font-size: 13px;
+  color: #888;
+  margin-top: 4px;
+}
+
+/* STATUS */
+.status {
+  margin-top: 12px;
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 20px;
+  background: #e9f8ef;
+  color: #2e7d32;
+}
+
+/* CALL BUTTON */
+.call-btn {
+  display: block;
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 14px;
+  background: #1c1c1e;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  transition: all 0.2s ease;
+}
+
+.call-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* TAGLINE */
+.tagline {
+  font-size: 11px;
+  color: #aaa;
+  margin-top: 10px;
+}
+
+/* ACTION BUTTONS */
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.actions button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Highlighted buttons */
+.actions button:nth-child(1) {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.actions button:nth-child(2) {
+  background: #f3e5f5;
+  color: #7b1fa2;
+}
+
+.actions button:nth-child(3) {
+  background: #fff3e0;
+  color: #ef6c00;
+}
+
+.actions button:hover {
+  transform: scale(1.05);
+}
+
+/* SECTION CARDS */
+.section {
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.05);
+}
+
+/* HEADINGS */
+.section h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+/* TEXT */
+.section p {
+  font-size: 13px;
+  color: #666;
+}
+
+/* WALLET */
+.wallet-main {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111;
+}
+
+.wallet-sub {
+  font-size: 12px;
+  color: #888;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  font-size: 11px;
+  color: #aaa;
+  margin-top: 10px;
+}
